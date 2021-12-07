@@ -17,6 +17,7 @@ steps:
       username: ${{ secrets.USERNAME }}
       password: ${{ secrets.PASSWORD }}
       url: ${{ secrets.URL }}
+      defaultSchemaName: 'public'
 ```
 
 Optional Parameter Example:
